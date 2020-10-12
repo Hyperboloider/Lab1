@@ -1,18 +1,15 @@
 #include <iostream>
 
-float main()
+int main()
 {   
-    float а;
+    float a, n, d, result;
     std::cout << "перший член прогресії: ";
     std::cin >> a;
-    float d;
     std::cout << "різниця прогресії: ";
     std::cin >> d;
-    float n;
     std::cout << "номер шуканого числа: ";
     std::cin >> n;
-    float result;
     result = a+d*(n-1);
-    std::cout << "Шукане значення: " << age << std::endl;
+    std::cout << result << std::endl;
     return 0;
 }
