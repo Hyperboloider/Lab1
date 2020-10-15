@@ -1,7 +1,15 @@
 #include <iostream>
 
 int main()
-{
-std::cout << "Hello world!";
-std::getchar();
+{   
+    float a, n, d, result;
+    std::cout << "перший член прогресії: ";
+    std::cin >> a;
+    std::cout << "різниця прогресії: ";
+    std::cin >> d;
+    std::cout << "номер шуканого числа: ";
+    std::cin >> n;
+    result = a+d*(n-1);
+    std::cout << result << std::endl;
+    return 0;
 }
