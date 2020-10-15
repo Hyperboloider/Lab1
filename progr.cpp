@@ -10,6 +10,6 @@ int main()
     std::cout << "номер шуканого числа: ";
     std::cin >> n;
     result = a+d*(n-1);
-    std::cout << result << std::endl;
+    std::cout << "шуканий член прогресії:" << result << std::endl;
     return 0;
 }
