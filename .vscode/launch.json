@@ -11,7 +11,7 @@
             "type": "cppdbg",
             "request": "launch",
             "targetArchitecture": "x86_64",
-            "program": "D:\\cppcompil\\mingw64\\bin\\progr.exe",
+            "program": "D:\\homework\\pb\\Lab1\\progr.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

@@ -7,9 +7,9 @@ int main()
     std::cin >> a;
     std::cout << "різниця прогресії: ";
     std::cin >> d;
-    std::cout << "номер шуканого числа: ";
+    std::cout << "номер шуканого члену: ";
     std::cin >> n;
     result = a+d*(n-1);
-    std::cout << "шуканий член прогресії:" << result << std::endl;
+    std::cout << "шукане: " << result << std::endl;
     return 0;
 }

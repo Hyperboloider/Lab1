@@ -11,7 +11,7 @@
                 "_UNICODE"
             ],
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "D:\\cppcompil\\mingw64\\bin\\g++.exe",
+            "compilerPath": "D:/cppcompil/mingw64/bin/g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++20"
         }
