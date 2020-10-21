@@ -2,14 +2,15 @@
 
 int main()
 {   
-    float a, n, d, result;
-    std::cout << "перший член прогресії: ";
-    std::cin >> a;
-    std::cout << "різниця прогресії: ";
-    std::cin >> d;
-    std::cout << "номер шуканого члену: ";
-    std::cin >> n;
-    result = a+d*(n-1);
-    std::cout << "шукане: " << result << std::endl;
+    float firstMember, difference, result;              //визначимо тип вхідних змінних та змінної результату
+    int number;                                         //визничамо тип 
+    std::cout << "перший член прогресії (число): ";
+    std::cin >> firstMember;                            //введення першого члену прогресії
+    std::cout << "різниця прогресії (число): ";
+    std::cin >> difference;                             //введення різниці прогресії
+    std::cout << "номер шуканого члену (ціле число, більше за нуль): ";
+    std::cin >> number;                                 //введення номеру шуканого члену
+    result = firstMember + difference * (number - 1);   //обчислення шуканого члену
+    std::cout << "шукане: " << result << std::endl;     //виведення шуканого
     return 0;
 }
